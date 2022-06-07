@@ -13,5 +13,5 @@ class Maze:
         self.grid = [[Cell.WALL] * width for _ in range(height)]
 
     def clear(self, x, y):
-        self.grid[y][x] = Cell.FLOOR
+        self.grid[self.height-y-1][x] = Cell.FLOOR
 

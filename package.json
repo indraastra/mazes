@@ -1,0 +1,14 @@
+{
+  "name": "mazes",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "author": "Vishal Talwar <rawlatv@gmail.com>",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir docs"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
