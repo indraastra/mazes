@@ -10,6 +10,10 @@
     "build": "parcel build --dist-dir docs --public-url '/mazes'"
   },
   "devDependencies": {
+    "@tweakpane/core": "^1.0.9",
     "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "tweakpane": "^3.0.8"
   }
 }

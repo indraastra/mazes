@@ -739,6 +739,11 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@tweakpane/core@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@tweakpane/core/-/core-1.0.9.tgz#4135618a75165b45e0f44a4af71b5cb337fedabd"
+  integrity sha512-vvS0IGhJ9Wq37vgldgF9Ohh5BA0RKapffhzyTN84170nt/0SCreXB9zIMLlbL4ZxvCKAKJ0080wJHS5aVhf20Q==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -1372,6 +1377,11 @@ tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tweakpane@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/tweakpane/-/tweakpane-3.0.8.tgz#e9138020ff4dc13a86cf1b2276ff5a2b5921df5c"
+  integrity sha512-vJuB0346B6gMpxnFDJyy2wcEshkvcTpQ74TCqJTeFaDvzq9FL29h5KszT1+YUTLlP+26OQI8PFGN8WbtOQStnQ==
 
 type-fest@^0.20.2:
   version "0.20.2"
