@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "prebuild": "rm -rf docs",
+    "prebuild": "find docs -type f -not -name '_config.yml' -delete",
     "build": "parcel build --dist-dir docs --public-url mazes"
   },
   "devDependencies": {
