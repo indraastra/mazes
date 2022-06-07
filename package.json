@@ -6,7 +6,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --dist-dir docs"
+    "prebuild": "rm -rf docs",
+    "build": "parcel build --dist-dir docs --public-url mazes"
   },
   "devDependencies": {
     "parcel": "^2.6.0"
