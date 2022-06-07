@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "prebuild": "find docs -type f -not -name '_config.yml' -delete",
-    "build": "parcel build --dist-dir docs --public-url mazes"
+    "build": "parcel build --dist-dir docs --public-url '/mazes'"
   },
   "devDependencies": {
     "parcel": "^2.6.0"
